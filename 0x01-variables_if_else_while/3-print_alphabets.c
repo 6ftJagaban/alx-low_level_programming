@@ -1,22 +1,20 @@
 #include <stdio.h>
-int main(void)
 /**
  *main - ALX Coding Project
- *DESCRIPTION - printing the alphabets in lowercase using 'putchar' function only
- *Return - Always 0 (Success)
+ *DESCRIPTION - printing alphabets in lowercase using 'putchar' function only
+ *Return: Always 0 (Success)
  */
-
+int main(void)
 {
-	  char tsu;
-	for(tsu = 'a' ; tsu <= 'z' ; tsu++) {
-	       putchar(tsu);
-}
-	for(tsu = 'A' ; tsu <= 'z' ; tsu++) {
-		putchar(tsu);
-}
+	  char t;
 
+	for (t = 'a' ; t <= 'z' ; t++)
+	       putchar(t);
 
+	for (t = 'A' ; t <= 'Z' ; t++){
+		putchar(t);
+}
 	putchar('\n');
-	return(0);
+	return (0);
 
 }
