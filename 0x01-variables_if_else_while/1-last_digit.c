@@ -25,7 +25,7 @@ if (q == 0)
 }
 if (q < 6 &&  q != 0)
 {
-	printf(" and is less than 6 and not 0\n");
+	printf("and is less than 6 and not 0\n");
 }
 
 	printf("\n");
