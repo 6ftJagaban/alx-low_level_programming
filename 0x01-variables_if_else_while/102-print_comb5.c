@@ -1,29 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - ALX Coding Project
- * DESCRIPTION - [Advanced][Optional]
- * Return: Always 0 (Success))
+ * main -  ALX Coding Project
+ * DESCRIPTION - [Addvanced][Opptional]
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n1, n2;
+	int n1;
 
-	for (n1 = 0; n1 <= 100; n1++)
+	int n2;
+
+	for (n1 = 0; n2 < 100; n1++)
 	{
-		for (n2 = n1 + 1; n2 <= 100; n2++)
+		for (n2 = 0; n2 < 100; n2++)
 		{
-			putchar((n1 / 10) + '0');
-			putchar((n1 % 10) + '0');
-			putchar(' ');
-			putchar((n2 / 10) + '0');
-			putchar((n2 % 10) + '0');
-
-			if (n1 != 98 && n2 != 99)
-
-				continue;
-			putchar(',');
-			putchar(',');
+			if (n1 < n2)
+			{
+				putchar((n1 / 10) + 48);
+				putchar((n1 % 10) + 48);
+				putchar(' ');
+				putchar((n2 / 10) + 48);
+				putchar((n2 % 10) + 48);
+				if (n1 != 98 || n2 != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');

@@ -2,7 +2,7 @@
 /**
  * main - ALX Coding Project
  * DESCRIPTION - [Advanced][Optional]
- * Return: Always 0 (Sucess)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -10,27 +10,22 @@ int main(void)
 	int o = '0';
 	int t = '0';
 
+	for (z = '0'; z < '9'; z++)
 	{
-		for (o = '0'; o <= '9'; o++)
+		for (o = z + 1; o <= '9'; o++)
 		{
-			for (z = '0'; z <= '9'; z++)
+			for (t = z + 1; t <= '9'; t++)
 			{
-				for (t = o + 1; t <= '9'; t++)
+				if (z != o && o != t)
 				{
-				if (z != o && o != t)/*eliminates repitition*/
-				{
-					putchar(t);
-					putchar(o);
 					putchar(z);
-					if (z == '7' && o == '8')/* adds commas and spaces */
+					putchar(o);
+					putchar(t);
 
+					if (z == '7' && o == '8')
 						continue;
-					{
-						putchar(',');
-						putchar(',');
-					}
-				}
-
+					putchar(',');
+					putchar(',');
 				}
 			}
 		}
@@ -38,4 +33,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
