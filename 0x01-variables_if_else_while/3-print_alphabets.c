@@ -10,8 +10,8 @@ int main(void)
 
 	char w;
 
-	t = 'a'
-	w = 'A'
+	t = 'a';
+	w = 'A';
 
 	while (t <= 'z')
 	{
