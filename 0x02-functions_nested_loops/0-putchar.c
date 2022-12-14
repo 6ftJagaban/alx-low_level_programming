@@ -1,4 +1,4 @@
-#include 'main.h'
+#include "main.h"
 /**
  * main - ALX Coding Project
  * Description - Print "_putchar"
@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar("_putchar\n");
 		return (0);
 }
