@@ -11,7 +11,6 @@ void print_alphabet(void)
 	int f;
 
 	f = 122;
-	
 	n = 97;
 
 	while (n <= f)
