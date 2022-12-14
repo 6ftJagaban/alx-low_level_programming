@@ -3,7 +3,7 @@
  * main - ALX Coding Project
  * Return: Always 0
  */
-void print_alphabet(void)
+void print_alphabet(void);
 {
 	char n;
 	
@@ -14,6 +14,6 @@ void print_alphabet(void)
 		_putchar(n);
 		n++;
 	}
-	_putchar('\n')
+	_putchar('\n');
 		return (0);
 }
