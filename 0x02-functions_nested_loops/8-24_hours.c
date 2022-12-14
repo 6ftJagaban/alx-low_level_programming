@@ -6,22 +6,18 @@
  */
 void jack_bauer(void)
 {
-	int f = 0, r = 23, ff = 0, rr = 59;
+	int f, r;
 
-	while (f <= r)
+	for (f = 0; f <= 23; f++)
 	{
-		while (ff <= rr)
+		for (r = 0; r <= 59; r++)
 		{
-			_putchar(f < 9 ? 0 + '0' : f / 10 + '0');
-			_putchar(f < 9 ? f = '0' : f % 10 + '0');
+			_putchar((f / 10) + '0');
+			_putchar((f % 10) + '0');
 			_putchar(':');
-			_putchar(ff < 9 ? 0 + '0' : ff / 10 + '0');
-			_putchar(ff < 9 ? ff + '0' : ff % 10 + '0');
+			_putchar((r / 10) + '0');
+			_putchar((r % 10) + '0');
 			_putchar('\n');
-
-				ff++;
 		}
-		ff = 0;
-		f++;
 	}
 }
