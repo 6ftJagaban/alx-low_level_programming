@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - ALX Coding Project
+ * print_alphabet_x10 - ALX Coding Project
  * Description - prints lowercase alphabets ten times
  * Return: Always 0
  */
-void print_alphabet_x10(void)/*prototype function*/
+void print_alphabet_x10(void)
 {
 	int k = 97, g = 122, x = 1;
 

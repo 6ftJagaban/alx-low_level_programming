@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - ALX Coding Project
+ * print_alphabet - ALX Coding Project
  * Description - task
  * Return: Always 0
  */
