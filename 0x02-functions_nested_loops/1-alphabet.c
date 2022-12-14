@@ -3,17 +3,20 @@
  * main - ALX Coding Project
  * Return: Always 0
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char n;
-	
-	n = 'a';
+	int n;
 
-	while (n <= 'z')
+	int f;
+
+	f = 122;
+	
+	n = 97;
+
+	while (n <= f)
 	{
 		_putchar(n);
 		n++;
 	}
 	_putchar('\n');
-		return (0);
 }
