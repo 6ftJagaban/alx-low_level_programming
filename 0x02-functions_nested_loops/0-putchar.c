@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include 'main.h'
 /**
  * main - ALX Coding Project
  * Description - Print "_putchar"
