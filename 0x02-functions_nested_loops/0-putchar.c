@@ -4,5 +4,9 @@
  * Description - Print "_putchar"
  * Return: Always 0
  */
-	_putchar("_putchar\n");
+char x;
+{
+	x = "_putchar";
+		_putchar(x"\n");
 		return (0);
+}
