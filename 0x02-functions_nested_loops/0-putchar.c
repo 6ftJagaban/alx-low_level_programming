@@ -4,8 +4,7 @@
  * Description - Print "_putchar"
  * Return: Always 0
  */
-int x = "_putchar";
 {
-	_putchar(x "\n");
+	_putchar("_putchar\n");
 		return (0);
 }
